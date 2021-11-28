@@ -1,0 +1,32 @@
+.right__sidebar__img{
+    background-color: white; 
+    padding-top:5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    border:1px solid lightgray;
+    height: fit-content;
+    position: sticky;
+    top:83px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%
+}
+
+.right__sidebar__img >img {
+    width:100%;
+}
+
+.right__sidebar__content{
+    background-color: white;
+    padding:10px;
+    border-radius: 10px;
+    border:1px solid lightgray;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.right__sidebar{
+    flex:0.26
+}

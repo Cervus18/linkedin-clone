@@ -1,0 +1,46 @@
+.account{
+    display: flex;
+    justify-content: space-between;
+    padding:4px;
+    border-radius: 30px;
+    margin-bottom: 5px;
+    
+}
+
+.account:hover{
+    background-color: whitesmoke;
+}
+
+.account img{
+    width:30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+    border:1px solid lightgray
+  
+}
+
+.account h3{
+    font-size: 15px;
+    margin-left:5px;
+    font-weight: 600;
+}
+
+.follow__btn{
+    color:green;
+    border: 2px solid green;
+    border-radius: 30px;
+    outline:none;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.follow__btn:hover{
+    background-color: green;
+    color:#fff;
+}
+
+.div__info{
+    display: flex;
+}
